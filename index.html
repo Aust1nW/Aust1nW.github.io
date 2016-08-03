@@ -21,7 +21,7 @@
     box-shadow:none;
 }
 
-h1{
+#thisH1{
   font-family: 'Lobster', cursive;
   margin-top: auto;
   margin-bottom: auto;
@@ -29,7 +29,7 @@ h1{
   font-size:80px;
   color:white;
 }
-h2{
+#thisH2{
   color:white;
   font-style: italic;
 }
@@ -64,7 +64,7 @@ h2{
 <header>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 </header>
 <div class="pageOne">
   <u1 class="nav nav-pills nav-bar">
@@ -79,7 +79,9 @@ h2{
       <a href="#"><i class="fa fa-user" aria-hidden="true"></i> About</a>
     </li>
 </u1>
+    <div id="thisH1">
   <h1 class="text-center" >Austin Woo</h1>
+    </div>
   <div class="btnList text-center mynav">
     <a class="btn btn-default" href="https://github.com/Aust1nW"><i class="fa fa-github" aria-hidden="true"></i> Github</a>
     <a class="btn btn-default text-center" href="#">Linked <i class="fa fa-linkedin" aria-hidden="true"style="color:#0077B5"></i></a>
@@ -87,7 +89,9 @@ h2{
     <i class="fa fa-folder-open" aria-hidden="true"></i> Resume</a>
   </div>
   <div class="block">
+    <div id="thisH2">
     <h2 class="text-center" >"Stay hungry, stay foolish" - Steve Jobs</h2>
+      </div>
   </div>
 </div>
 </body>
